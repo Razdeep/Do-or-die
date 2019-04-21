@@ -1,5 +1,4 @@
 package handlers;
-// package com.amazon.ask.helloworld.handlers;
 
 import com.amazon.ask.dispatcher.request.handler.HandlerInput;
 import com.amazon.ask.dispatcher.request.handler.RequestHandler;
@@ -19,10 +18,11 @@ public class LaunchRequestHandler implements RequestHandler {
 
     @Override
     public Optional<Response> handle(HandlerInput input) {
-        String speechText = "Welcome to the Alexa Skills Kit, you can say hello";
+        String speechText = "Welcome to Do or Die, you can test your survival instincts,"+
+        "Are you ready?";
         return input.getResponseBuilder()
                 .withSpeech(speechText)
-                .withSimpleCard("HelloWorld", speechText)
+                .withSimpleCard("Do or Die", speechText)
                 .withReprompt(speechText)
                 .build();
     }

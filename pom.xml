@@ -2,10 +2,10 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>alexa-skills-kit-samples</groupId>
-  <artifactId>helloworld</artifactId>
+  <artifactId>Do-or-Die</artifactId>
   <packaging>jar</packaging>
   <version>1.0</version>
-  <name>Do-or-die</name>
+  <name>Do-or-Die</name>
   <url>http://developer.amazon.com/ask</url>
   <licenses>
     <license>
@@ -17,7 +17,7 @@
     <developer>
       <name>Rajdeep Roy Chowdhury</name>
       <email>rrajdeeproychowdhury@gmail.com</email>
-      <organization>Alexa</organization>
+      <organization>RRC</organization>
       <organizationUrl>http://developer.amazon.com/ask</organizationUrl>
     </developer>
   </developers>

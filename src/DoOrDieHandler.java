@@ -19,7 +19,6 @@ public class DoOrDieHandler extends SkillStreamHandler {
                         new LaunchRequestHandler(),
                         new SessionEndedRequestHandler(),
                         new FallbackIntentHandler())
-                // Add your skill id below
                 .withSkillId("amzn1.ask.skill.4fba54b6-d53a-4fe5-8baf-e47cbc6550e1")
                 .build();
     }

@@ -1,4 +1,3 @@
-// package com.amazon.ask.helloworld.handlers;
 package handlers;
 
 import com.amazon.ask.dispatcher.request.handler.HandlerInput;
