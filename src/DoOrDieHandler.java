@@ -5,6 +5,7 @@ import handlers.CancelandStopIntentHandler;
 import handlers.HelloWorldIntentHandler;
 import handlers.HelpIntentHandler;
 import handlers.SessionEndedRequestHandler;
+import handlers.YesIntentHandler;
 import handlers.LaunchRequestHandler;
 import handlers.FallbackIntentHandler;
 
@@ -18,8 +19,9 @@ public class DoOrDieHandler extends SkillStreamHandler {
                         new HelpIntentHandler(),
                         new LaunchRequestHandler(),
                         new SessionEndedRequestHandler(),
-                        new FallbackIntentHandler())
-                .withSkillId("amzn1.ask.skill.4fba54b6-d53a-4fe5-8baf-e47cbc6550e1")
+                        new FallbackIntentHandler(),
+                        new YesIntentHandler())
+                // .withSkillId("amzn1.ask.skill.4fba54b6-d53a-4fe5-8baf-e47cbc6550e1")
                 .build();
     }
 

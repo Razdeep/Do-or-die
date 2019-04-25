@@ -18,7 +18,7 @@ public class LaunchRequestHandler implements RequestHandler {
 
     @Override
     public Optional<Response> handle(HandlerInput input) {
-        String speechText = "Welcome to Do or Die, you can test your survival instincts,"+
+        String speechText = "Welcome to Do or Die, you can test your survival instincts, "+
         "Are you ready?";
         return input.getResponseBuilder()
                 .withSpeech(speechText)
